@@ -1,0 +1,2111 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Linux - 6.2.0-37-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/3.26.3/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/3.26.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-aQC23J"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-aQC23J"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-aQC23J
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_fb78b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fb78b.dir/build.make CMakeFiles/cmTC_fb78b.dir/build
+        gmake[1]: Entering directory '/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-aQC23J'
+        Building C object CMakeFiles/cmTC_fb78b.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_fb78b.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.26/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fb78b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_fb78b.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/local/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_fb78b.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc22mNxe.s
+        GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-linux-gnu/11/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 50eaa2331df977b8016186198deb2d18
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fb78b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_fb78b.dir/'
+         as -v --64 -o CMakeFiles/cmTC_fb78b.dir/CMakeCCompilerABI.c.o /tmp/cc22mNxe.s
+        GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fb78b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_fb78b.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_fb78b
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb78b.dir/link.txt --verbose=1
+        /usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_fb78b.dir/CMakeCCompilerABI.c.o -o cmTC_fb78b 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_fb78b' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_fb78b.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8VBKna.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_fb78b /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_fb78b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_fb78b' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_fb78b.'
+        gmake[1]: Leaving directory '/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-aQC23J'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-aQC23J]
+        ignore line: []
+        ignore line: [Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_fb78b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fb78b.dir/build.make CMakeFiles/cmTC_fb78b.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-aQC23J']
+        ignore line: [Building C object CMakeFiles/cmTC_fb78b.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_fb78b.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.26/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fb78b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_fb78b.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/local/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_fb78b.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc22mNxe.s]
+        ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 50eaa2331df977b8016186198deb2d18]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fb78b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_fb78b.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_fb78b.dir/CMakeCCompilerABI.c.o /tmp/cc22mNxe.s]
+        ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fb78b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_fb78b.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_fb78b]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb78b.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_fb78b.dir/CMakeCCompilerABI.c.o -o cmTC_fb78b ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_fb78b' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_fb78b.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8VBKna.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_fb78b /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_fb78b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc8VBKna.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-export-dynamic] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_fb78b] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+          arg [CMakeFiles/cmTC_fb78b.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-VZ8cEx"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-VZ8cEx"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-VZ8cEx
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ef079/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ef079.dir/build.make CMakeFiles/cmTC_ef079.dir/build
+        gmake[1]: Entering directory '/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-VZ8cEx'
+        Building CXX object CMakeFiles/cmTC_ef079.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_ef079.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ef079.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ef079.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/local/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ef079.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccEKyqAq.s
+        GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/11
+         /usr/include/x86_64-linux-gnu/c++/11
+         /usr/include/c++/11/backward
+         /usr/lib/gcc/x86_64-linux-gnu/11/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ef079.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ef079.dir/'
+         as -v --64 -o CMakeFiles/cmTC_ef079.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccEKyqAq.s
+        GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ef079.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ef079.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_ef079
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef079.dir/link.txt --verbose=1
+        /usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_ef079.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ef079 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ef079' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ef079.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccT90yRZ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ef079 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_ef079.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ef079' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ef079.'
+        gmake[1]: Leaving directory '/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-VZ8cEx'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/11]
+          add: [/usr/include/x86_64-linux-gnu/c++/11]
+          add: [/usr/include/c++/11/backward]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/11] ==> [/usr/include/c++/11]
+        collapse include dir [/usr/include/x86_64-linux-gnu/c++/11] ==> [/usr/include/x86_64-linux-gnu/c++/11]
+        collapse include dir [/usr/include/c++/11/backward] ==> [/usr/include/c++/11/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/11;/usr/include/x86_64-linux-gnu/c++/11;/usr/include/c++/11/backward;/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-VZ8cEx]
+        ignore line: []
+        ignore line: [Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ef079/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ef079.dir/build.make CMakeFiles/cmTC_ef079.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-VZ8cEx']
+        ignore line: [Building CXX object CMakeFiles/cmTC_ef079.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_ef079.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ef079.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ef079.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/local/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ef079.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccEKyqAq.s]
+        ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/11]
+        ignore line: [ /usr/include/x86_64-linux-gnu/c++/11]
+        ignore line: [ /usr/include/c++/11/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ef079.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ef079.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_ef079.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccEKyqAq.s]
+        ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ef079.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ef079.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_ef079]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef079.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_ef079.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ef079 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ef079' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ef079.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccT90yRZ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ef079 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_ef079.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccT90yRZ.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-export-dynamic] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_ef079] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+          arg [CMakeFiles/cmTC_ef079.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake-3.26/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/usr/local/share/cmake-3.26/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CMakeLists.txt:19 (include)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-fkkdPd"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-fkkdPd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-fkkdPd
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a4fe9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a4fe9.dir/build.make CMakeFiles/cmTC_a4fe9.dir/build
+        gmake[1]: 进入目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-fkkdPd”
+        Building C object CMakeFiles/cmTC_a4fe9.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_a4fe9.dir/src.c.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-fkkdPd/src.c
+        Linking C executable cmTC_a4fe9
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4fe9.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_a4fe9.dir/src.c.o -o cmTC_a4fe9 
+        gmake[1]: 离开目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-fkkdPd”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:116 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_CXX11"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-SqdF7m"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-SqdF7m"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_CXX11"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-SqdF7m
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_152fe/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_152fe.dir/build.make CMakeFiles/cmTC_152fe.dir/build
+        gmake[1]: Entering directory '/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-SqdF7m'
+        Building CXX object CMakeFiles/cmTC_152fe.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_SUPPORTS_CXX11  -std=gnu++11 -o CMakeFiles/cmTC_152fe.dir/src.cxx.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-SqdF7m/src.cxx
+        Linking CXX executable cmTC_152fe
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_152fe.dir/link.txt --verbose=1
+        /usr/bin/c++ -rdynamic CMakeFiles/cmTC_152fe.dir/src.cxx.o -o cmTC_152fe 
+        gmake[1]: Leaving directory '/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-SqdF7m'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:122 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_C11"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-STjnPe"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-STjnPe"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_C11"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-STjnPe
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d5ede/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d5ede.dir/build.make CMakeFiles/cmTC_d5ede.dir/build
+        gmake[1]: Entering directory '/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-STjnPe'
+        Building C object CMakeFiles/cmTC_d5ede.dir/src.c.o
+        /usr/bin/cc -DCOMPILER_SUPPORTS_C11  -std=gnu11 -o CMakeFiles/cmTC_d5ede.dir/src.c.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-STjnPe/src.c
+        Linking C executable cmTC_d5ede
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5ede.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_d5ede.dir/src.c.o -o cmTC_d5ede 
+        gmake[1]: Leaving directory '/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-STjnPe'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:131 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test CXX_HAS_TAUT_WARNING"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-4muhzF"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-4muhzF"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=gnu++11"
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "CXX_HAS_TAUT_WARNING"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-4muhzF
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_03c52/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_03c52.dir/build.make CMakeFiles/cmTC_03c52.dir/build
+        gmake[1]: Entering directory '/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-4muhzF'
+        Building CXX object CMakeFiles/cmTC_03c52.dir/src.cxx.o
+        /usr/bin/c++ -DCXX_HAS_TAUT_WARNING  -std=gnu++11    -Wno-tautological-constant-compare -o CMakeFiles/cmTC_03c52.dir/src.cxx.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-4muhzF/src.cxx
+        Linking CXX executable cmTC_03c52
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03c52.dir/link.txt --verbose=1
+        /usr/bin/c++  -std=gnu++11  -rdynamic CMakeFiles/cmTC_03c52.dir/src.cxx.o -o cmTC_03c52 
+        gmake[1]: Leaving directory '/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-4muhzF'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:135 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test CC_HAS_TAUT_WARNING"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-LlTWfv"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-LlTWfv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=gnu11"
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "CC_HAS_TAUT_WARNING"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-LlTWfv
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4cb54/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4cb54.dir/build.make CMakeFiles/cmTC_4cb54.dir/build
+        gmake[1]: Entering directory '/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-LlTWfv'
+        Building C object CMakeFiles/cmTC_4cb54.dir/src.c.o
+        /usr/bin/cc -DCC_HAS_TAUT_WARNING  -std=gnu11    -Wno-tautological-constant-compare -o CMakeFiles/cmTC_4cb54.dir/src.c.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-LlTWfv/src.c
+        Linking C executable cmTC_4cb54
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cb54.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=gnu11  -rdynamic CMakeFiles/cmTC_4cb54.dir/src.c.o -o cmTC_4cb54 
+        gmake[1]: Leaving directory '/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-LlTWfv'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCXXSymbolExists.cmake:77 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:253 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for strlcpy"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-MJuREB"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-MJuREB"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=gnu++11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_STRLCPY"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-MJuREB
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bc39b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bc39b.dir/build.make CMakeFiles/cmTC_bc39b.dir/build
+        gmake[1]: 进入目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-MJuREB”
+        Building CXX object CMakeFiles/cmTC_bc39b.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -std=gnu++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_bc39b.dir/CheckSymbolExists.cxx.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-MJuREB/CheckSymbolExists.cxx
+        /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-MJuREB/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+        /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-MJuREB/CheckSymbolExists.cxx:8:19: error: ‘strlcpy’ was not declared in this scope; did you mean ‘strncpy’?
+            8 |   return ((int*)(&strlcpy))[argc];
+              |                   ^~~~~~~
+              |                   strncpy
+        At global scope:
+        cc1plus: note: unrecognized command-line option ‘-Wno-tautological-constant-compare’ may have been intended to silence earlier diagnostics
+        gmake[1]: *** [CMakeFiles/cmTC_bc39b.dir/build.make:78：CMakeFiles/cmTC_bc39b.dir/CheckSymbolExists.cxx.o] 错误 1
+        gmake[1]: 离开目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-MJuREB”
+        gmake: *** [Makefile:127：cmTC_bc39b/fast] 错误 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCXXSymbolExists.cmake:77 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:382 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for kqueue"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-8WfkEe"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-8WfkEe"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=gnu++11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "HAVE_KQUEUE"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-8WfkEe
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1baf7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1baf7.dir/build.make CMakeFiles/cmTC_1baf7.dir/build
+        gmake[1]: 进入目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-8WfkEe”
+        Building CXX object CMakeFiles/cmTC_1baf7.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -std=gnu++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_1baf7.dir/CheckSymbolExists.cxx.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-8WfkEe/CheckSymbolExists.cxx
+        /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-8WfkEe/CheckSymbolExists.cxx:2:10: fatal error: sys/event.h: 没有那个文件或目录
+            2 | #include <sys/event.h>
+              |          ^~~~~~~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_1baf7.dir/build.make:78：CMakeFiles/cmTC_1baf7.dir/CheckSymbolExists.cxx.o] 错误 1
+        gmake[1]: 离开目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-8WfkEe”
+        gmake: *** [Makefile:127：cmTC_1baf7/fast] 错误 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCXXSymbolExists.cmake:77 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:389 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for epoll_create"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-VjlQ94"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-VjlQ94"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=gnu++11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "HAVE_EPOLL"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-VjlQ94
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_12d6c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_12d6c.dir/build.make CMakeFiles/cmTC_12d6c.dir/build
+        gmake[1]: 进入目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-VjlQ94”
+        Building CXX object CMakeFiles/cmTC_12d6c.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -std=gnu++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_12d6c.dir/CheckSymbolExists.cxx.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-VjlQ94/CheckSymbolExists.cxx
+        Linking CXX executable cmTC_12d6c
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12d6c.dir/link.txt --verbose=1
+        /usr/bin/c++  -std=gnu++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_12d6c.dir/CheckSymbolExists.cxx.o -o cmTC_12d6c 
+        gmake[1]: 离开目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-VjlQ94”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCXXSymbolExists.cmake:77 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:392 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for epoll_create1"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-ePtqae"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-ePtqae"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=gnu++11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "HAVE_EPOLL_CLOEXEC"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-ePtqae
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0e874/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0e874.dir/build.make CMakeFiles/cmTC_0e874.dir/build
+        gmake[1]: 进入目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-ePtqae”
+        Building CXX object CMakeFiles/cmTC_0e874.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -std=gnu++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_0e874.dir/CheckSymbolExists.cxx.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-ePtqae/CheckSymbolExists.cxx
+        Linking CXX executable cmTC_0e874
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e874.dir/link.txt --verbose=1
+        /usr/bin/c++  -std=gnu++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_0e874.dir/CheckSymbolExists.cxx.o -o cmTC_0e874 
+        gmake[1]: 离开目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-ePtqae”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "CMakeLists.txt:482 (check_include_files)"
+    checks:
+      - "Looking for include file windows.h"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-JHA6vA"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-JHA6vA"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=gnu11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_WINDOWS"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-JHA6vA
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_aa5db/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_aa5db.dir/build.make CMakeFiles/cmTC_aa5db.dir/build
+        gmake[1]: 进入目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-JHA6vA”
+        Building C object CMakeFiles/cmTC_aa5db.dir/ZMQ_HAVE_WINDOWS.c.o
+        /usr/bin/cc   -std=gnu11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_aa5db.dir/ZMQ_HAVE_WINDOWS.c.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-JHA6vA/ZMQ_HAVE_WINDOWS.c
+        /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-JHA6vA/ZMQ_HAVE_WINDOWS.c:2:10: fatal error: windows.h: 没有那个文件或目录
+            2 | #include <windows.h>
+              |          ^~~~~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_aa5db.dir/build.make:78：CMakeFiles/cmTC_aa5db.dir/ZMQ_HAVE_WINDOWS.c.o] 错误 1
+        gmake[1]: 离开目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-JHA6vA”
+        gmake: *** [Makefile:127：cmTC_aa5db/fast] 错误 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "CMakeLists.txt:494 (check_include_files)"
+    checks:
+      - "Looking for include file condition_variable"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-qXajgA"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-qXajgA"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=gnu++11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_STL_CONDITION_VARIABLE"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-qXajgA
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2cc8b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2cc8b.dir/build.make CMakeFiles/cmTC_2cc8b.dir/build
+        gmake[1]: 进入目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-qXajgA”
+        Building CXX object CMakeFiles/cmTC_2cc8b.dir/ZMQ_HAVE_STL_CONDITION_VARIABLE.cpp.o
+        /usr/bin/c++   -std=gnu++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_2cc8b.dir/ZMQ_HAVE_STL_CONDITION_VARIABLE.cpp.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-qXajgA/ZMQ_HAVE_STL_CONDITION_VARIABLE.cpp
+        Linking CXX executable cmTC_2cc8b
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2cc8b.dir/link.txt --verbose=1
+        /usr/bin/c++  -std=gnu++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_2cc8b.dir/ZMQ_HAVE_STL_CONDITION_VARIABLE.cpp.o -o cmTC_2cc8b 
+        gmake[1]: 离开目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-qXajgA”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "CMakeLists.txt:531 (check_include_files)"
+    checks:
+      - "Looking for include file ifaddrs.h"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-NFBUcl"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-NFBUcl"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=gnu11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_IFADDRS"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-NFBUcl
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_aea91/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_aea91.dir/build.make CMakeFiles/cmTC_aea91.dir/build
+        gmake[1]: 进入目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-NFBUcl”
+        Building C object CMakeFiles/cmTC_aea91.dir/ZMQ_HAVE_IFADDRS.c.o
+        /usr/bin/cc   -std=gnu11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_aea91.dir/ZMQ_HAVE_IFADDRS.c.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-NFBUcl/ZMQ_HAVE_IFADDRS.c
+        Linking C executable cmTC_aea91
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aea91.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=gnu11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_aea91.dir/ZMQ_HAVE_IFADDRS.c.o -o cmTC_aea91 
+        gmake[1]: 离开目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-NFBUcl”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "CMakeLists.txt:532 (check_include_files)"
+    checks:
+      - "Looking for include file sys/uio.h"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-TXcblh"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-TXcblh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=gnu11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_UIO"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-TXcblh
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_fc053/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fc053.dir/build.make CMakeFiles/cmTC_fc053.dir/build
+        gmake[1]: 进入目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-TXcblh”
+        Building C object CMakeFiles/cmTC_fc053.dir/ZMQ_HAVE_UIO.c.o
+        /usr/bin/cc   -std=gnu11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_fc053.dir/ZMQ_HAVE_UIO.c.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-TXcblh/ZMQ_HAVE_UIO.c
+        Linking C executable cmTC_fc053
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc053.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=gnu11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_fc053.dir/ZMQ_HAVE_UIO.c.o -o cmTC_fc053 
+        gmake[1]: 离开目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-TXcblh”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "CMakeLists.txt:533 (check_include_files)"
+    checks:
+      - "Looking for include file sys/eventfd.h"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-Fzrzd4"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-Fzrzd4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=gnu11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_EVENTFD"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-Fzrzd4
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d6c85/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d6c85.dir/build.make CMakeFiles/cmTC_d6c85.dir/build
+        gmake[1]: 进入目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-Fzrzd4”
+        Building C object CMakeFiles/cmTC_d6c85.dir/ZMQ_HAVE_EVENTFD.c.o
+        /usr/bin/cc   -std=gnu11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_d6c85.dir/ZMQ_HAVE_EVENTFD.c.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-Fzrzd4/ZMQ_HAVE_EVENTFD.c
+        Linking C executable cmTC_d6c85
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6c85.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=gnu11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_d6c85.dir/ZMQ_HAVE_EVENTFD.c.o -o cmTC_d6c85 
+        gmake[1]: 离开目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-Fzrzd4”
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceRuns.cmake:93 (try_run)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCSourceRuns.cmake:76 (cmake_check_source_runs)"
+      - "builds/cmake/Modules/ZMQSourceRunChecks.cmake:21 (check_c_source_runs)"
+      - "CMakeLists.txt:535 (zmq_check_efd_cloexec)"
+    checks:
+      - "Performing Test ZMQ_HAVE_EVENTFD_CLOEXEC"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-UJCsCm"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-UJCsCm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=gnu11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_EVENTFD_CLOEXEC_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-UJCsCm
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f9c17/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f9c17.dir/build.make CMakeFiles/cmTC_f9c17.dir/build
+        gmake[1]: 进入目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-UJCsCm”
+        Building C object CMakeFiles/cmTC_f9c17.dir/src.c.o
+        /usr/bin/cc -DZMQ_HAVE_EVENTFD_CLOEXEC  -std=gnu11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_f9c17.dir/src.c.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-UJCsCm/src.c
+        Linking C executable cmTC_f9c17
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9c17.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=gnu11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_f9c17.dir/src.c.o -o cmTC_f9c17 
+        gmake[1]: 离开目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-UJCsCm”
+        
+      exitCode: 0
+    runResult:
+      variable: "ZMQ_HAVE_EVENTFD_CLOEXEC_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCXXSymbolExists.cmake:77 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:555 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for if_nametoindex"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-02i4um"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-02i4um"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=gnu++11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "HAVE_IF_NAMETOINDEX"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-02i4um
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bba6c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bba6c.dir/build.make CMakeFiles/cmTC_bba6c.dir/build
+        gmake[1]: 进入目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-02i4um”
+        Building CXX object CMakeFiles/cmTC_bba6c.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -std=gnu++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_bba6c.dir/CheckSymbolExists.cxx.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-02i4um/CheckSymbolExists.cxx
+        Linking CXX executable cmTC_bba6c
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bba6c.dir/link.txt --verbose=1
+        /usr/bin/c++  -std=gnu++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_bba6c.dir/CheckSymbolExists.cxx.o -o cmTC_bba6c 
+        gmake[1]: 离开目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-02i4um”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCXXSymbolExists.cmake:77 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:556 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for SO_PEERCRED"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-uaBPLV"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-uaBPLV"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=gnu++11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_SO_PEERCRED"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-uaBPLV
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7ce45/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7ce45.dir/build.make CMakeFiles/cmTC_7ce45.dir/build
+        gmake[1]: 进入目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-uaBPLV”
+        Building CXX object CMakeFiles/cmTC_7ce45.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -std=gnu++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_7ce45.dir/CheckSymbolExists.cxx.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-uaBPLV/CheckSymbolExists.cxx
+        Linking CXX executable cmTC_7ce45
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ce45.dir/link.txt --verbose=1
+        /usr/bin/c++  -std=gnu++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_7ce45.dir/CheckSymbolExists.cxx.o -o cmTC_7ce45 
+        gmake[1]: 离开目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-uaBPLV”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCXXSymbolExists.cmake:77 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:557 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for LOCAL_PEERCRED"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-0VCE0l"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-0VCE0l"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=gnu++11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_LOCAL_PEERCRED"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-0VCE0l
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1dec7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1dec7.dir/build.make CMakeFiles/cmTC_1dec7.dir/build
+        gmake[1]: 进入目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-0VCE0l”
+        Building CXX object CMakeFiles/cmTC_1dec7.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -std=gnu++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_1dec7.dir/CheckSymbolExists.cxx.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-0VCE0l/CheckSymbolExists.cxx
+        /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-0VCE0l/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+        /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-0VCE0l/CheckSymbolExists.cxx:8:19: error: ‘LOCAL_PEERCRED’ was not declared in this scope; did you mean ‘SO_PEERCRED’?
+            8 |   return ((int*)(&LOCAL_PEERCRED))[argc];
+              |                   ^~~~~~~~~~~~~~
+              |                   SO_PEERCRED
+        At global scope:
+        cc1plus: note: unrecognized command-line option ‘-Wno-tautological-constant-compare’ may have been intended to silence earlier diagnostics
+        gmake[1]: *** [CMakeFiles/cmTC_1dec7.dir/build.make:78：CMakeFiles/cmTC_1dec7.dir/CheckSymbolExists.cxx.o] 错误 1
+        gmake[1]: 离开目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-0VCE0l”
+        gmake: *** [Makefile:127：cmTC_1dec7/fast] 错误 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCXXSymbolExists.cmake:77 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:585 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for clock_gettime"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-kWn23l"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-kWn23l"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=gnu++11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "HAVE_CLOCK_GETTIME"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-kWn23l
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0d73f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0d73f.dir/build.make CMakeFiles/cmTC_0d73f.dir/build
+        gmake[1]: 进入目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-kWn23l”
+        Building CXX object CMakeFiles/cmTC_0d73f.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -std=gnu++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_0d73f.dir/CheckSymbolExists.cxx.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-kWn23l/CheckSymbolExists.cxx
+        Linking CXX executable cmTC_0d73f
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d73f.dir/link.txt --verbose=1
+        /usr/bin/c++  -std=gnu++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_0d73f.dir/CheckSymbolExists.cxx.o -o cmTC_0d73f  -lrt 
+        gmake[1]: 离开目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-kWn23l”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCXXSymbolExists.cmake:77 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:588 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for fork"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-0KcCFA"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-0KcCFA"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=gnu++11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "HAVE_FORK"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-0KcCFA
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0e367/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0e367.dir/build.make CMakeFiles/cmTC_0e367.dir/build
+        gmake[1]: 进入目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-0KcCFA”
+        Building CXX object CMakeFiles/cmTC_0e367.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -std=gnu++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_0e367.dir/CheckSymbolExists.cxx.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-0KcCFA/CheckSymbolExists.cxx
+        Linking CXX executable cmTC_0e367
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e367.dir/link.txt --verbose=1
+        /usr/bin/c++  -std=gnu++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_0e367.dir/CheckSymbolExists.cxx.o -o cmTC_0e367 
+        gmake[1]: 离开目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-0KcCFA”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCXXSymbolExists.cmake:77 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:589 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for gethrtime"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-TeXiw9"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-TeXiw9"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=gnu++11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "HAVE_GETHRTIME"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-TeXiw9
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_629c5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_629c5.dir/build.make CMakeFiles/cmTC_629c5.dir/build
+        gmake[1]: 进入目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-TeXiw9”
+        Building CXX object CMakeFiles/cmTC_629c5.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -std=gnu++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_629c5.dir/CheckSymbolExists.cxx.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-TeXiw9/CheckSymbolExists.cxx
+        /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-TeXiw9/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+        /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-TeXiw9/CheckSymbolExists.cxx:8:19: error: ‘gethrtime’ was not declared in this scope; did you mean ‘getitimer’?
+            8 |   return ((int*)(&gethrtime))[argc];
+              |                   ^~~~~~~~~
+              |                   getitimer
+        At global scope:
+        cc1plus: note: unrecognized command-line option ‘-Wno-tautological-constant-compare’ may have been intended to silence earlier diagnostics
+        gmake[1]: *** [CMakeFiles/cmTC_629c5.dir/build.make:78：CMakeFiles/cmTC_629c5.dir/CheckSymbolExists.cxx.o] 错误 1
+        gmake[1]: 离开目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-TeXiw9”
+        gmake: *** [Makefile:127：cmTC_629c5/fast] 错误 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCXXSymbolExists.cmake:77 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:590 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for mkdtemp"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-Dmor4X"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-Dmor4X"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=gnu++11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "HAVE_MKDTEMP"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-Dmor4X
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0ae31/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0ae31.dir/build.make CMakeFiles/cmTC_0ae31.dir/build
+        gmake[1]: 进入目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-Dmor4X”
+        Building CXX object CMakeFiles/cmTC_0ae31.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -std=gnu++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_0ae31.dir/CheckSymbolExists.cxx.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-Dmor4X/CheckSymbolExists.cxx
+        Linking CXX executable cmTC_0ae31
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ae31.dir/link.txt --verbose=1
+        /usr/bin/c++  -std=gnu++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_0ae31.dir/CheckSymbolExists.cxx.o -o cmTC_0ae31 
+        gmake[1]: 离开目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-Dmor4X”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCXXSymbolExists.cmake:77 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:591 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for accept4"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-2omsQk"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-2omsQk"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=gnu++11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "HAVE_ACCEPT4"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-2omsQk
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_84288/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_84288.dir/build.make CMakeFiles/cmTC_84288.dir/build
+        gmake[1]: 进入目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-2omsQk”
+        Building CXX object CMakeFiles/cmTC_84288.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -std=gnu++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_84288.dir/CheckSymbolExists.cxx.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-2omsQk/CheckSymbolExists.cxx
+        Linking CXX executable cmTC_84288
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84288.dir/link.txt --verbose=1
+        /usr/bin/c++  -std=gnu++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_84288.dir/CheckSymbolExists.cxx.o -o cmTC_84288 
+        gmake[1]: 离开目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-2omsQk”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCXXSymbolExists.cmake:77 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:592 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for strnlen"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-bbcqMs"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-bbcqMs"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=gnu++11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "HAVE_STRNLEN"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-bbcqMs
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_65f5f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_65f5f.dir/build.make CMakeFiles/cmTC_65f5f.dir/build
+        gmake[1]: 进入目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-bbcqMs”
+        Building CXX object CMakeFiles/cmTC_65f5f.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -std=gnu++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_65f5f.dir/CheckSymbolExists.cxx.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-bbcqMs/CheckSymbolExists.cxx
+        Linking CXX executable cmTC_65f5f
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65f5f.dir/link.txt --verbose=1
+        /usr/bin/c++  -std=gnu++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_65f5f.dir/CheckSymbolExists.cxx.o -o cmTC_65f5f 
+        gmake[1]: 离开目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-bbcqMs”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:603 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:647 (zmq_check_cxx_flag_prepend)"
+    checks:
+      - "Performing Test HAVE_FLAG_-Wall"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-shxDtA"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-shxDtA"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=gnu++11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "HAVE_FLAG_-Wall"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-shxDtA
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b726c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b726c.dir/build.make CMakeFiles/cmTC_b726c.dir/build
+        gmake[1]: Entering directory '/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-shxDtA'
+        Building CXX object CMakeFiles/cmTC_b726c.dir/src.cxx.o
+        /usr/bin/c++   -std=gnu++11 -Wno-tautological-constant-compare    -DHAVE_FLAG_-Wall -Wall -o CMakeFiles/cmTC_b726c.dir/src.cxx.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-shxDtA/src.cxx
+        <command-line>: warning: ISO C++11 requires whitespace after the macro name
+        cc1plus: note: unrecognized command-line option '-Wno-tautological-constant-compare' may have been intended to silence earlier diagnostics
+        Linking CXX executable cmTC_b726c
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b726c.dir/link.txt --verbose=1
+        /usr/bin/c++  -std=gnu++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_b726c.dir/src.cxx.o -o cmTC_b726c 
+        gmake[1]: Leaving directory '/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-shxDtA'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:603 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:651 (zmq_check_cxx_flag_prepend)"
+    checks:
+      - "Performing Test HAVE_FLAG_-Wextra"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-dh2aBY"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-dh2aBY"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=gnu++11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "HAVE_FLAG_-Wextra"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-dh2aBY
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_62e43/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_62e43.dir/build.make CMakeFiles/cmTC_62e43.dir/build
+        gmake[1]: Entering directory '/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-dh2aBY'
+        Building CXX object CMakeFiles/cmTC_62e43.dir/src.cxx.o
+        /usr/bin/c++   -std=gnu++11 -Wno-tautological-constant-compare    -DHAVE_FLAG_-Wextra -Wextra -o CMakeFiles/cmTC_62e43.dir/src.cxx.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-dh2aBY/src.cxx
+        <command-line>: warning: ISO C++11 requires whitespace after the macro name
+        cc1plus: note: unrecognized command-line option '-Wno-tautological-constant-compare' may have been intended to silence earlier diagnostics
+        Linking CXX executable cmTC_62e43
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62e43.dir/link.txt --verbose=1
+        /usr/bin/c++  -std=gnu++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_62e43.dir/src.cxx.o -o cmTC_62e43 
+        gmake[1]: Leaving directory '/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-dh2aBY'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:603 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:659 (zmq_check_cxx_flag_prepend)"
+    checks:
+      - "Performing Test HAVE_FLAG_-Wno-long-long"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-Am8l36"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-Am8l36"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=gnu++11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "HAVE_FLAG_-Wno-long-long"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-Am8l36
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9b196/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9b196.dir/build.make CMakeFiles/cmTC_9b196.dir/build
+        gmake[1]: Entering directory '/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-Am8l36'
+        Building CXX object CMakeFiles/cmTC_9b196.dir/src.cxx.o
+        /usr/bin/c++   -std=gnu++11 -Wno-tautological-constant-compare    -DHAVE_FLAG_-Wno-long-long -Wno-long-long -o CMakeFiles/cmTC_9b196.dir/src.cxx.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-Am8l36/src.cxx
+        <command-line>: warning: ISO C++11 requires whitespace after the macro name
+        cc1plus: note: unrecognized command-line option '-Wno-tautological-constant-compare' may have been intended to silence earlier diagnostics
+        Linking CXX executable cmTC_9b196
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b196.dir/link.txt --verbose=1
+        /usr/bin/c++  -std=gnu++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_9b196.dir/src.cxx.o -o cmTC_9b196 
+        gmake[1]: Leaving directory '/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-Am8l36'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:603 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:660 (zmq_check_cxx_flag_prepend)"
+    checks:
+      - "Performing Test HAVE_FLAG_-Wno-uninitialized"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-11G7vn"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-11G7vn"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=gnu++11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "HAVE_FLAG_-Wno-uninitialized"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-11G7vn
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_613f3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_613f3.dir/build.make CMakeFiles/cmTC_613f3.dir/build
+        gmake[1]: Entering directory '/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-11G7vn'
+        Building CXX object CMakeFiles/cmTC_613f3.dir/src.cxx.o
+        /usr/bin/c++   -std=gnu++11 -Wno-tautological-constant-compare    -DHAVE_FLAG_-Wno-uninitialized -Wno-uninitialized -o CMakeFiles/cmTC_613f3.dir/src.cxx.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-11G7vn/src.cxx
+        <command-line>: warning: ISO C++11 requires whitespace after the macro name
+        cc1plus: note: unrecognized command-line option '-Wno-tautological-constant-compare' may have been intended to silence earlier diagnostics
+        Linking CXX executable cmTC_613f3
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_613f3.dir/link.txt --verbose=1
+        /usr/bin/c++  -std=gnu++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_613f3.dir/src.cxx.o -o cmTC_613f3 
+        gmake[1]: Leaving directory '/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-11G7vn'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:603 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:663 (zmq_check_cxx_flag_prepend)"
+    checks:
+      - "Performing Test HAVE_FLAG_-pedantic"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-YJiesW"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-YJiesW"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=gnu++11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "HAVE_FLAG_-pedantic"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-YJiesW
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5db47/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5db47.dir/build.make CMakeFiles/cmTC_5db47.dir/build
+        gmake[1]: Entering directory '/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-YJiesW'
+        Building CXX object CMakeFiles/cmTC_5db47.dir/src.cxx.o
+        /usr/bin/c++   -std=gnu++11 -Wno-tautological-constant-compare    -DHAVE_FLAG_-pedantic -pedantic -o CMakeFiles/cmTC_5db47.dir/src.cxx.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-YJiesW/src.cxx
+        <command-line>: warning: ISO C++11 requires whitespace after the macro name
+        cc1plus: note: unrecognized command-line option '-Wno-tautological-constant-compare' may have been intended to silence earlier diagnostics
+        Linking CXX executable cmTC_5db47
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5db47.dir/link.txt --verbose=1
+        /usr/bin/c++  -std=gnu++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_5db47.dir/src.cxx.o -o cmTC_5db47 
+        gmake[1]: Leaving directory '/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-YJiesW'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "builds/cmake/Modules/ZMQSourceRunChecks.cmake:299 (check_cxx_source_compiles)"
+      - "CMakeLists.txt:717 (zmq_check_noexcept)"
+    checks:
+      - "Performing Test ZMQ_HAVE_NOEXCEPT"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-mfx7Ui"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-mfx7Ui"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=gnu++11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_NOEXCEPT"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-mfx7Ui
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b71fe/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b71fe.dir/build.make CMakeFiles/cmTC_b71fe.dir/build
+        gmake[1]: 进入目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-mfx7Ui”
+        Building CXX object CMakeFiles/cmTC_b71fe.dir/src.cxx.o
+        /usr/bin/c++ -DZMQ_HAVE_NOEXCEPT  -std=gnu++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_b71fe.dir/src.cxx.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-mfx7Ui/src.cxx
+        Linking CXX executable cmTC_b71fe
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b71fe.dir/link.txt --verbose=1
+        /usr/bin/c++  -std=gnu++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_b71fe.dir/src.cxx.o -o cmTC_b71fe 
+        gmake[1]: 离开目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-mfx7Ui”
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceRuns.cmake:93 (try_run)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCSourceRuns.cmake:76 (cmake_check_source_runs)"
+      - "builds/cmake/Modules/ZMQSourceRunChecks.cmake:5 (check_c_source_runs)"
+      - "CMakeLists.txt:722 (zmq_check_sock_cloexec)"
+    checks:
+      - "Performing Test ZMQ_HAVE_SOCK_CLOEXEC"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-ZjvKtl"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-ZjvKtl"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=gnu11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_SOCK_CLOEXEC_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-ZjvKtl
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f8bb2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f8bb2.dir/build.make CMakeFiles/cmTC_f8bb2.dir/build
+        gmake[1]: 进入目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-ZjvKtl”
+        Building C object CMakeFiles/cmTC_f8bb2.dir/src.c.o
+        /usr/bin/cc -DZMQ_HAVE_SOCK_CLOEXEC  -std=gnu11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_f8bb2.dir/src.c.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-ZjvKtl/src.c
+        Linking C executable cmTC_f8bb2
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8bb2.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=gnu11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_f8bb2.dir/src.c.o -o cmTC_f8bb2 
+        gmake[1]: 离开目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-ZjvKtl”
+        
+      exitCode: 0
+    runResult:
+      variable: "ZMQ_HAVE_SOCK_CLOEXEC_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceRuns.cmake:93 (try_run)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCSourceRuns.cmake:76 (cmake_check_source_runs)"
+      - "builds/cmake/Modules/ZMQSourceRunChecks.cmake:36 (check_c_source_runs)"
+      - "CMakeLists.txt:723 (zmq_check_o_cloexec)"
+    checks:
+      - "Performing Test ZMQ_HAVE_O_CLOEXEC"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-lmPTLj"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-lmPTLj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=gnu11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_O_CLOEXEC_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-lmPTLj
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_69b19/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_69b19.dir/build.make CMakeFiles/cmTC_69b19.dir/build
+        gmake[1]: 进入目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-lmPTLj”
+        Building C object CMakeFiles/cmTC_69b19.dir/src.c.o
+        /usr/bin/cc -DZMQ_HAVE_O_CLOEXEC  -std=gnu11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_69b19.dir/src.c.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-lmPTLj/src.c
+        Linking C executable cmTC_69b19
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69b19.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=gnu11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_69b19.dir/src.c.o -o cmTC_69b19 
+        gmake[1]: 离开目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-lmPTLj”
+        
+      exitCode: 0
+    runResult:
+      variable: "ZMQ_HAVE_O_CLOEXEC_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceRuns.cmake:93 (try_run)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCSourceRuns.cmake:76 (cmake_check_source_runs)"
+      - "builds/cmake/Modules/ZMQSourceRunChecks.cmake:53 (check_c_source_runs)"
+      - "CMakeLists.txt:724 (zmq_check_so_bindtodevice)"
+    checks:
+      - "Performing Test ZMQ_HAVE_SO_BINDTODEVICE"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-N3WqeG"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-N3WqeG"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=gnu11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_SO_BINDTODEVICE_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-N3WqeG
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7ac07/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7ac07.dir/build.make CMakeFiles/cmTC_7ac07.dir/build
+        gmake[1]: 进入目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-N3WqeG”
+        Building C object CMakeFiles/cmTC_7ac07.dir/src.c.o
+        /usr/bin/cc -DZMQ_HAVE_SO_BINDTODEVICE  -std=gnu11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_7ac07.dir/src.c.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-N3WqeG/src.c
+        Linking C executable cmTC_7ac07
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ac07.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=gnu11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_7ac07.dir/src.c.o -o cmTC_7ac07 
+        gmake[1]: 离开目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-N3WqeG”
+        
+      exitCode: 0
+    runResult:
+      variable: "ZMQ_HAVE_SO_BINDTODEVICE_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceRuns.cmake:93 (try_run)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCSourceRuns.cmake:76 (cmake_check_source_runs)"
+      - "builds/cmake/Modules/ZMQSourceRunChecks.cmake:74 (check_c_source_runs)"
+      - "CMakeLists.txt:725 (zmq_check_so_keepalive)"
+    checks:
+      - "Performing Test ZMQ_HAVE_SO_KEEPALIVE"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-maiC7B"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-maiC7B"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=gnu11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_SO_KEEPALIVE_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-maiC7B
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_32511/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_32511.dir/build.make CMakeFiles/cmTC_32511.dir/build
+        gmake[1]: 进入目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-maiC7B”
+        Building C object CMakeFiles/cmTC_32511.dir/src.c.o
+        /usr/bin/cc -DZMQ_HAVE_SO_KEEPALIVE  -std=gnu11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_32511.dir/src.c.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-maiC7B/src.c
+        Linking C executable cmTC_32511
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32511.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=gnu11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_32511.dir/src.c.o -o cmTC_32511 
+        gmake[1]: 离开目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-maiC7B”
+        
+      exitCode: 0
+    runResult:
+      variable: "ZMQ_HAVE_SO_KEEPALIVE_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceRuns.cmake:93 (try_run)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCSourceRuns.cmake:76 (cmake_check_source_runs)"
+      - "builds/cmake/Modules/ZMQSourceRunChecks.cmake:317 (check_c_source_runs)"
+      - "CMakeLists.txt:726 (zmq_check_so_priority)"
+    checks:
+      - "Performing Test ZMQ_HAVE_SO_PRIORITY"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-RCj4Ip"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-RCj4Ip"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=gnu11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_SO_PRIORITY_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-RCj4Ip
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_01d43/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_01d43.dir/build.make CMakeFiles/cmTC_01d43.dir/build
+        gmake[1]: 进入目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-RCj4Ip”
+        Building C object CMakeFiles/cmTC_01d43.dir/src.c.o
+        /usr/bin/cc -DZMQ_HAVE_SO_PRIORITY  -std=gnu11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_01d43.dir/src.c.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-RCj4Ip/src.c
+        Linking C executable cmTC_01d43
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01d43.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=gnu11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_01d43.dir/src.c.o -o cmTC_01d43 
+        gmake[1]: 离开目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-RCj4Ip”
+        
+      exitCode: 0
+    runResult:
+      variable: "ZMQ_HAVE_SO_PRIORITY_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceRuns.cmake:93 (try_run)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCSourceRuns.cmake:76 (cmake_check_source_runs)"
+      - "builds/cmake/Modules/ZMQSourceRunChecks.cmake:93 (check_c_source_runs)"
+      - "CMakeLists.txt:727 (zmq_check_tcp_keepcnt)"
+    checks:
+      - "Performing Test ZMQ_HAVE_TCP_KEEPCNT"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-VllAtY"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-VllAtY"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=gnu11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_TCP_KEEPCNT_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-VllAtY
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3bd08/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3bd08.dir/build.make CMakeFiles/cmTC_3bd08.dir/build
+        gmake[1]: 进入目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-VllAtY”
+        Building C object CMakeFiles/cmTC_3bd08.dir/src.c.o
+        /usr/bin/cc -DZMQ_HAVE_TCP_KEEPCNT  -std=gnu11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_3bd08.dir/src.c.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-VllAtY/src.c
+        Linking C executable cmTC_3bd08
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3bd08.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=gnu11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_3bd08.dir/src.c.o -o cmTC_3bd08 
+        gmake[1]: 离开目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-VllAtY”
+        
+      exitCode: 0
+    runResult:
+      variable: "ZMQ_HAVE_TCP_KEEPCNT_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceRuns.cmake:93 (try_run)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCSourceRuns.cmake:76 (cmake_check_source_runs)"
+      - "builds/cmake/Modules/ZMQSourceRunChecks.cmake:115 (check_c_source_runs)"
+      - "CMakeLists.txt:728 (zmq_check_tcp_keepidle)"
+    checks:
+      - "Performing Test ZMQ_HAVE_TCP_KEEPIDLE"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-wL7ugX"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-wL7ugX"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=gnu11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_TCP_KEEPIDLE_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-wL7ugX
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e8cc6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e8cc6.dir/build.make CMakeFiles/cmTC_e8cc6.dir/build
+        gmake[1]: 进入目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-wL7ugX”
+        Building C object CMakeFiles/cmTC_e8cc6.dir/src.c.o
+        /usr/bin/cc -DZMQ_HAVE_TCP_KEEPIDLE  -std=gnu11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_e8cc6.dir/src.c.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-wL7ugX/src.c
+        Linking C executable cmTC_e8cc6
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8cc6.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=gnu11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_e8cc6.dir/src.c.o -o cmTC_e8cc6 
+        gmake[1]: 离开目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-wL7ugX”
+        
+      exitCode: 0
+    runResult:
+      variable: "ZMQ_HAVE_TCP_KEEPIDLE_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceRuns.cmake:93 (try_run)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCSourceRuns.cmake:76 (cmake_check_source_runs)"
+      - "builds/cmake/Modules/ZMQSourceRunChecks.cmake:138 (check_c_source_runs)"
+      - "CMakeLists.txt:729 (zmq_check_tcp_keepintvl)"
+    checks:
+      - "Performing Test ZMQ_HAVE_TCP_KEEPINTVL"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-GlhTM3"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-GlhTM3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=gnu11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_TCP_KEEPINTVL_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-GlhTM3
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1ae31/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1ae31.dir/build.make CMakeFiles/cmTC_1ae31.dir/build
+        gmake[1]: 进入目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-GlhTM3”
+        Building C object CMakeFiles/cmTC_1ae31.dir/src.c.o
+        /usr/bin/cc -DZMQ_HAVE_TCP_KEEPINTVL  -std=gnu11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_1ae31.dir/src.c.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-GlhTM3/src.c
+        Linking C executable cmTC_1ae31
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ae31.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=gnu11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_1ae31.dir/src.c.o -o cmTC_1ae31 
+        gmake[1]: 离开目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-GlhTM3”
+        
+      exitCode: 0
+    runResult:
+      variable: "ZMQ_HAVE_TCP_KEEPINTVL_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceRuns.cmake:93 (try_run)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCSourceRuns.cmake:76 (cmake_check_source_runs)"
+      - "builds/cmake/Modules/ZMQSourceRunChecks.cmake:162 (check_c_source_runs)"
+      - "CMakeLists.txt:730 (zmq_check_tcp_keepalive)"
+    checks:
+      - "Performing Test ZMQ_HAVE_TCP_KEEPALIVE"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-JV8dNx"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-JV8dNx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=gnu11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_TCP_KEEPALIVE_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-JV8dNx
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_18cb4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_18cb4.dir/build.make CMakeFiles/cmTC_18cb4.dir/build
+        gmake[1]: 进入目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-JV8dNx”
+        Building C object CMakeFiles/cmTC_18cb4.dir/src.c.o
+        /usr/bin/cc -DZMQ_HAVE_TCP_KEEPALIVE  -std=gnu11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_18cb4.dir/src.c.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-JV8dNx/src.c
+        /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-JV8dNx/src.c: In function ‘main’:
+        /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-JV8dNx/src.c:13:42: error: ‘TCP_KEEPALIVE’ undeclared (first use in this function); did you mean ‘SO_KEEPALIVE’?
+           13 |        ((rc = setsockopt(s, IPPROTO_TCP, TCP_KEEPALIVE,(char*) &opt, sizeof(int))) == -1)
+              |                                          ^~~~~~~~~~~~~
+              |                                          SO_KEEPALIVE
+        /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-JV8dNx/src.c:13:42: note: each undeclared identifier is reported only once for each function it appears in
+        /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-JV8dNx/src.c: At top level:
+        cc1: note: unrecognized command-line option ‘-Wno-tautological-constant-compare’ may have been intended to silence earlier diagnostics
+        gmake[1]: *** [CMakeFiles/cmTC_18cb4.dir/build.make:78：CMakeFiles/cmTC_18cb4.dir/src.c.o] 错误 1
+        gmake[1]: 离开目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-JV8dNx”
+        gmake: *** [Makefile:127：cmTC_18cb4/fast] 错误 2
+        
+      exitCode: 2
+    runResult:
+      variable: "ZMQ_HAVE_TCP_KEEPALIVE_EXITCODE"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceRuns.cmake:93 (try_run)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCSourceRuns.cmake:76 (cmake_check_source_runs)"
+      - "builds/cmake/Modules/ZMQSourceRunChecks.cmake:185 (check_c_source_runs)"
+      - "CMakeLists.txt:731 (zmq_check_tcp_tipc)"
+    checks:
+      - "Performing Test ZMQ_HAVE_TIPC"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-TJyPeM"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-TJyPeM"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=gnu11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_TIPC_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-TJyPeM
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_44740/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_44740.dir/build.make CMakeFiles/cmTC_44740.dir/build
+        gmake[1]: 进入目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-TJyPeM”
+        Building C object CMakeFiles/cmTC_44740.dir/src.c.o
+        /usr/bin/cc -DZMQ_HAVE_TIPC  -std=gnu11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_44740.dir/src.c.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-TJyPeM/src.c
+        Linking C executable cmTC_44740
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44740.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=gnu11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_44740.dir/src.c.o -o cmTC_44740 
+        gmake[1]: 离开目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-TJyPeM”
+        
+      exitCode: 0
+    runResult:
+      variable: "ZMQ_HAVE_TIPC_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceRuns.cmake:93 (try_run)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCSourceRuns.cmake:76 (cmake_check_source_runs)"
+      - "builds/cmake/Modules/ZMQSourceRunChecks.cmake:214 (check_c_source_runs)"
+      - "CMakeLists.txt:732 (zmq_check_pthread_setname)"
+    checks:
+      - "Performing Test ZMQ_HAVE_PTHREAD_SETNAME_1"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-X7xA6w"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-X7xA6w"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=gnu11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_PTHREAD_SETNAME_1_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-X7xA6w
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_fc127/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fc127.dir/build.make CMakeFiles/cmTC_fc127.dir/build
+        gmake[1]: 进入目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-X7xA6w”
+        Building C object CMakeFiles/cmTC_fc127.dir/src.c.o
+        /usr/bin/cc -DZMQ_HAVE_PTHREAD_SETNAME_1  -std=gnu11 -Wno-tautological-constant-compare -D_GNU_SOURCE -Werror -pthread -o CMakeFiles/cmTC_fc127.dir/src.c.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-X7xA6w/src.c
+        /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-X7xA6w/src.c: In function ‘main’:
+        /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-X7xA6w/src.c:6:25: error: passing argument 1 of ‘pthread_setname_np’ makes integer from pointer without a cast [-Werror=int-conversion]
+            6 |     pthread_setname_np ("foo");
+              |                         ^~~~~
+              |                         |
+              |                         char *
+        In file included from /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-X7xA6w/src.c:2:
+        /usr/include/pthread.h:463:42: note: expected ‘pthread_t’ {aka ‘long unsigned int’} but argument is of type ‘char *’
+          463 | extern int pthread_setname_np (pthread_t __target_thread, const char *__name)
+              |                                ~~~~~~~~~~^~~~~~~~~~~~~~~
+        /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-X7xA6w/src.c:6:5: error: too few arguments to function ‘pthread_setname_np’
+            6 |     pthread_setname_np ("foo");
+              |     ^~~~~~~~~~~~~~~~~~
+        In file included from /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-X7xA6w/src.c:2:
+        /usr/include/pthread.h:463:12: note: declared here
+          463 | extern int pthread_setname_np (pthread_t __target_thread, const char *__name)
+              |            ^~~~~~~~~~~~~~~~~~
+        /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-X7xA6w/src.c: At top level:
+        cc1: note: unrecognized command-line option ‘-Wno-tautological-constant-compare’ may have been intended to silence earlier diagnostics
+        cc1: all warnings being treated as errors
+        gmake[1]: *** [CMakeFiles/cmTC_fc127.dir/build.make:78：CMakeFiles/cmTC_fc127.dir/src.c.o] 错误 1
+        gmake[1]: 离开目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-X7xA6w”
+        gmake: *** [Makefile:127：cmTC_fc127/fast] 错误 2
+        
+      exitCode: 2
+    runResult:
+      variable: "ZMQ_HAVE_PTHREAD_SETNAME_1_EXITCODE"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceRuns.cmake:93 (try_run)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCSourceRuns.cmake:76 (cmake_check_source_runs)"
+      - "builds/cmake/Modules/ZMQSourceRunChecks.cmake:225 (check_c_source_runs)"
+      - "CMakeLists.txt:732 (zmq_check_pthread_setname)"
+    checks:
+      - "Performing Test ZMQ_HAVE_PTHREAD_SETNAME_2"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-RTQxxD"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-RTQxxD"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=gnu11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_PTHREAD_SETNAME_2_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-RTQxxD
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_aa3ba/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_aa3ba.dir/build.make CMakeFiles/cmTC_aa3ba.dir/build
+        gmake[1]: 进入目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-RTQxxD”
+        Building C object CMakeFiles/cmTC_aa3ba.dir/src.c.o
+        /usr/bin/cc -DZMQ_HAVE_PTHREAD_SETNAME_2  -std=gnu11 -Wno-tautological-constant-compare -D_GNU_SOURCE -Werror -pthread -o CMakeFiles/cmTC_aa3ba.dir/src.c.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-RTQxxD/src.c
+        Linking C executable cmTC_aa3ba
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa3ba.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=gnu11 -Wno-tautological-constant-compare -D_GNU_SOURCE -Werror -pthread -rdynamic CMakeFiles/cmTC_aa3ba.dir/src.c.o -o cmTC_aa3ba 
+        gmake[1]: 离开目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-RTQxxD”
+        
+      exitCode: 0
+    runResult:
+      variable: "ZMQ_HAVE_PTHREAD_SETNAME_2_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceRuns.cmake:93 (try_run)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCSourceRuns.cmake:76 (cmake_check_source_runs)"
+      - "builds/cmake/Modules/ZMQSourceRunChecks.cmake:236 (check_c_source_runs)"
+      - "CMakeLists.txt:732 (zmq_check_pthread_setname)"
+    checks:
+      - "Performing Test ZMQ_HAVE_PTHREAD_SETNAME_3"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-QcFAPs"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-QcFAPs"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=gnu11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_PTHREAD_SETNAME_3_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-QcFAPs
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1b636/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1b636.dir/build.make CMakeFiles/cmTC_1b636.dir/build
+        gmake[1]: 进入目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-QcFAPs”
+        Building C object CMakeFiles/cmTC_1b636.dir/src.c.o
+        /usr/bin/cc -DZMQ_HAVE_PTHREAD_SETNAME_3  -std=gnu11 -Wno-tautological-constant-compare -D_GNU_SOURCE -Werror -pthread -o CMakeFiles/cmTC_1b636.dir/src.c.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-QcFAPs/src.c
+        /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-QcFAPs/src.c: In function ‘main’:
+        /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-QcFAPs/src.c:6:5: error: too many arguments to function ‘pthread_setname_np’
+            6 |     pthread_setname_np (pthread_self(), "foo", (void *)0);
+              |     ^~~~~~~~~~~~~~~~~~
+        In file included from /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-QcFAPs/src.c:2:
+        /usr/include/pthread.h:463:12: note: declared here
+          463 | extern int pthread_setname_np (pthread_t __target_thread, const char *__name)
+              |            ^~~~~~~~~~~~~~~~~~
+        /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-QcFAPs/src.c: At top level:
+        cc1: note: unrecognized command-line option ‘-Wno-tautological-constant-compare’ may have been intended to silence earlier diagnostics
+        gmake[1]: *** [CMakeFiles/cmTC_1b636.dir/build.make:78：CMakeFiles/cmTC_1b636.dir/src.c.o] 错误 1
+        gmake[1]: 离开目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-QcFAPs”
+        gmake: *** [Makefile:127：cmTC_1b636/fast] 错误 2
+        
+      exitCode: 2
+    runResult:
+      variable: "ZMQ_HAVE_PTHREAD_SETNAME_3_EXITCODE"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceRuns.cmake:93 (try_run)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCSourceRuns.cmake:76 (cmake_check_source_runs)"
+      - "builds/cmake/Modules/ZMQSourceRunChecks.cmake:247 (check_c_source_runs)"
+      - "CMakeLists.txt:732 (zmq_check_pthread_setname)"
+    checks:
+      - "Performing Test ZMQ_HAVE_PTHREAD_SET_NAME"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-O7FRPN"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-O7FRPN"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=gnu11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_PTHREAD_SET_NAME_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-O7FRPN
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_74fd1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_74fd1.dir/build.make CMakeFiles/cmTC_74fd1.dir/build
+        gmake[1]: 进入目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-O7FRPN”
+        Building C object CMakeFiles/cmTC_74fd1.dir/src.c.o
+        /usr/bin/cc -DZMQ_HAVE_PTHREAD_SET_NAME  -std=gnu11 -Wno-tautological-constant-compare -D_GNU_SOURCE -Werror -pthread -o CMakeFiles/cmTC_74fd1.dir/src.c.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-O7FRPN/src.c
+        /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-O7FRPN/src.c: In function ‘main’:
+        /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-O7FRPN/src.c:6:5: error: implicit declaration of function ‘pthread_set_name_np’; did you mean ‘pthread_setname_np’? [-Werror=implicit-function-declaration]
+            6 |     pthread_set_name_np (pthread_self(), "foo");
+              |     ^~~~~~~~~~~~~~~~~~~
+              |     pthread_setname_np
+        /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-O7FRPN/src.c: At top level:
+        cc1: note: unrecognized command-line option ‘-Wno-tautological-constant-compare’ may have been intended to silence earlier diagnostics
+        cc1: all warnings being treated as errors
+        gmake[1]: *** [CMakeFiles/cmTC_74fd1.dir/build.make:78：CMakeFiles/cmTC_74fd1.dir/src.c.o] 错误 1
+        gmake[1]: 离开目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-O7FRPN”
+        gmake: *** [Makefile:127：cmTC_74fd1/fast] 错误 2
+        
+      exitCode: 2
+    runResult:
+      variable: "ZMQ_HAVE_PTHREAD_SET_NAME_EXITCODE"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceRuns.cmake:93 (try_run)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCSourceRuns.cmake:76 (cmake_check_source_runs)"
+      - "builds/cmake/Modules/ZMQSourceRunChecks.cmake:265 (check_c_source_runs)"
+      - "CMakeLists.txt:733 (zmq_check_pthread_setaffinity)"
+    checks:
+      - "Performing Test ZMQ_HAVE_PTHREAD_SET_AFFINITY"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-gnJZCp"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-gnJZCp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=gnu11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_PTHREAD_SET_AFFINITY_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-gnJZCp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_87fc0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_87fc0.dir/build.make CMakeFiles/cmTC_87fc0.dir/build
+        gmake[1]: 进入目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-gnJZCp”
+        Building C object CMakeFiles/cmTC_87fc0.dir/src.c.o
+        /usr/bin/cc -DZMQ_HAVE_PTHREAD_SET_AFFINITY  -std=gnu11 -Wno-tautological-constant-compare -D_GNU_SOURCE -Werror -pthread -o CMakeFiles/cmTC_87fc0.dir/src.c.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-gnJZCp/src.c
+        Linking C executable cmTC_87fc0
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87fc0.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=gnu11 -Wno-tautological-constant-compare -D_GNU_SOURCE -Werror -pthread -rdynamic CMakeFiles/cmTC_87fc0.dir/src.c.o -o cmTC_87fc0 
+        gmake[1]: 离开目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-gnJZCp”
+        
+      exitCode: 0
+    runResult:
+      variable: "ZMQ_HAVE_PTHREAD_SET_AFFINITY_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceRuns.cmake:93 (try_run)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCSourceRuns.cmake:76 (cmake_check_source_runs)"
+      - "builds/cmake/Modules/ZMQSourceRunChecks.cmake:283 (check_c_source_runs)"
+      - "CMakeLists.txt:734 (zmq_check_getrandom)"
+    checks:
+      - "Performing Test ZMQ_HAVE_GETRANDOM"
+    directories:
+      source: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-FHHMB6"
+      binary: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-FHHMB6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=gnu11 -Wno-tautological-constant-compare"
+      CMAKE_MODULE_PATH: "/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4;/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/builds/cmake/Modules"
+    buildResult:
+      variable: "ZMQ_HAVE_GETRANDOM_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-FHHMB6
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7cbfb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7cbfb.dir/build.make CMakeFiles/cmTC_7cbfb.dir/build
+        gmake[1]: 进入目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-FHHMB6”
+        Building C object CMakeFiles/cmTC_7cbfb.dir/src.c.o
+        /usr/bin/cc -DZMQ_HAVE_GETRANDOM  -std=gnu11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_7cbfb.dir/src.c.o -c /home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-FHHMB6/src.c
+        Linking C executable cmTC_7cbfb
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7cbfb.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=gnu11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_7cbfb.dir/src.c.o -o cmTC_7cbfb 
+        gmake[1]: 离开目录“/home/ouyang/share/sterne-gitee/sterne-sea/github/zeromq-4.3.4/build/CMakeFiles/CMakeScratch/TryCompile-FHHMB6”
+        
+      exitCode: 0
+    runResult:
+      variable: "ZMQ_HAVE_GETRANDOM_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+...
